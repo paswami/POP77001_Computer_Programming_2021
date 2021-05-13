@@ -1,1 +1,1 @@
-# Computer-Programming-for-Social-Scientists-Fall-2021-
+# Computer Programming for Social Scientists (Fall 2021)
