@@ -1,0 +1,14 @@
+---
+title: "Computer Programming for Social Scientists"
+author: "Tom Paskhalis"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook:
+    number_sections: false
+  #bookdown::pdf_book: default
+---
+
+# About this course {-}
+
+This course ...
