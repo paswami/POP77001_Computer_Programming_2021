@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>1 What is Computation? | Computer Programming for Social Scientists</title>
   <meta name="description" content="1 What is Computation? | Computer Programming for Social Scientists" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="1 What is Computation? | Computer Programming for Social Scientists" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,7 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="object-types-in-python.html"/>
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,9 +50,13 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+
+<link rel="stylesheet" href="css/bootstrap_buttons.css" type="text/css" />
 </head>
 
 <body>
@@ -89,6 +93,7 @@
 <li class="chapter" data-level="" data-path="working-with-apis.html"><a href="working-with-apis.html"><i class="fa fa-check"></i>12 Working with APIs</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
 </ul>
 
       </nav>
@@ -108,12 +113,19 @@
             <section class="normal" id="section-">
 <div id="what-is-computation" class="section level1">
 <h1>1 What is Computation?</h1>
+<div id="buttons">
+<p><a class="btn btn-primary btn-lg" role="button" href="lectures/01_week_slides.pdf">Lecture Slides (pdf)</a>
+<a class="btn btn-info btn-lg" role="button" href="lectures/01_week_slides.html">Lecture Slides (html)</a>
+<a class="btn btn-success btn-lg" role="button" href="lectures/01_week_slides.pdf">Lecture Slides (ipynb)</a>
+<a class="btn btn-danger btn-lg" role="button" href="labs/01_week.ipynb">Lab Exercise</a></p>
+</div>
+<hr />
 <p>In the first week we will cover the core concepts such as computers, programming languages and algorithms.</p>
 <div id="readings" class="section level2">
 <h2>Readings</h2>
 <ul>
 <li>Guttag. Chapters 1-2.1, pp. 1–15</li>
-<li>Wing, Jeannette M. 2006. “Computational Thinking.” Communications of the ACM, Communications of the ACM, 49 (3): 33–35. doi: <a href="https://doi.org/10.1145/1118178.1118215">10.1145/1118178.1118215</a></li>
+<li>Wing, Jeannette M. 2006. “Computational Thinking.” Communications of the ACM, 49 (3): 33–35. doi: <a href="https://doi.org/10.1145/1118178.1118215">10.1145/1118178.1118215</a></li>
 </ul>
 </div>
 <div id="lab" class="section level2">
@@ -148,13 +160,14 @@
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -176,7 +189,8 @@ gitbook.start({
 },
 "download": null,
 "toc": {
-"collapse": "section"
+"collapse": "section",
+"scroll_highlight": true
 }
 });
 });
