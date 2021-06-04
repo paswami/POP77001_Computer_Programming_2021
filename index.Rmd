@@ -28,12 +28,14 @@ data analysis applications:
 
 Additional online resources:
 
+- [Git Book](https://git-scm.com/book/en/v2)
+
 - [Python For You and Me](https://pymbook.readthedocs.io/en/latest/)
 
 - [Python Wikibook](https://en.wikibooks.org/wiki/Python_Programming)
 
-- [Python 3 documentation](https://docs.python.org/3/) (intermediate and advanced)
+- [Python 3 Documentation](https://docs.python.org/3/) (intermediate and advanced)
 
-- [R documentation](https://rdrr.io/)
+- [R Documentation](https://rdrr.io/)
 
 - [R Inferno](https://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
