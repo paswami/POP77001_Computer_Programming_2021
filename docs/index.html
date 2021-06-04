@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Computer Programming for Social Scientists</title>
   <meta name="description" content="Computer Programming for Social Scientists" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Computer Programming for Social Scientists" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,7 @@
   
 
 <link rel="next" href="what-is-computation.html"/>
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,9 +50,13 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+
+<link rel="stylesheet" href="css/bootstrap_buttons.css" type="text/css" />
 </head>
 
 <body>
@@ -89,6 +93,7 @@
 <li class="chapter" data-level="" data-path="working-with-apis.html"><a href="working-with-apis.html"><i class="fa fa-check"></i>12 Working with APIs</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
 </ul>
 
       </nav>
@@ -109,7 +114,7 @@
 <div id="header">
 <h1 class="title">Computer Programming for Social Scientists</h1>
 <p class="author"><em>Tom Paskhalis, Department of Politican Science, Trinity College Dublin</em></p>
-<p class="date"><em>2021-2022</em></p>
+<p class="date" style="margin-top: 1.5em;"><em>2021-2022</em></p>
 </div>
 <div id="about-this-course" class="section level1 unnumbered">
 <h1>About this course</h1>
@@ -127,10 +132,11 @@ data analysis applications:</p>
 </ul>
 <p>Additional online resources:</p>
 <ul>
+<li><p><a href="https://git-scm.com/book/en/v2">Git Book</a></p></li>
 <li><p><a href="https://pymbook.readthedocs.io/en/latest/">Python For You and Me</a></p></li>
 <li><p><a href="https://en.wikibooks.org/wiki/Python_Programming">Python Wikibook</a></p></li>
-<li><p><a href="https://docs.python.org/3/">Python 3 documentation</a> (intermediate and advanced)</p></li>
-<li><p><a href="https://rdrr.io/">R documentation</a></p></li>
+<li><p><a href="https://docs.python.org/3/">Python 3 Documentation</a> (intermediate and advanced)</p></li>
+<li><p><a href="https://rdrr.io/">R Documentation</a></p></li>
 <li><p><a href="https://www.burns-stat.com/pages/Tutor/R_inferno.pdf">R Inferno</a></p></li>
 </ul>
 
@@ -158,13 +164,14 @@ data analysis applications:</p>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -186,7 +193,8 @@ gitbook.start({
 },
 "download": null,
 "toc": {
-"collapse": "section"
+"collapse": "section",
+"scroll_highlight": true
 }
 });
 });

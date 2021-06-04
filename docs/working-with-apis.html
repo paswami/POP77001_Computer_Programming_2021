@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>12 Working with APIs | Computer Programming for Social Scientists</title>
   <meta name="description" content="12 Working with APIs | Computer Programming for Social Scientists" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="12 Working with APIs | Computer Programming for Social Scientists" />
   <meta property="og:type" content="book" />
@@ -32,7 +32,7 @@
   
 <link rel="prev" href="performance-and-complexity.html"/>
 
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,9 +50,13 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 
+
+<link rel="stylesheet" href="css/bootstrap_buttons.css" type="text/css" />
 </head>
 
 <body>
@@ -89,6 +93,7 @@
 <li class="chapter" data-level="" data-path="working-with-apis.html"><a href="working-with-apis.html"><i class="fa fa-check"></i>12 Working with APIs</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
 </ul>
 
       </nav>
@@ -108,6 +113,11 @@
             <section class="normal" id="section-">
 <div id="working-with-apis" class="section level1">
 <h1>12 Working with APIs</h1>
+<p>Some ideas for example APIs:</p>
+<ul>
+<li>Twitter API, <a href="https://developer.twitter.com/en/docs/twitter-api" class="uri">https://developer.twitter.com/en/docs/twitter-api</a> (Application + OAuth2, very complex)</li>
+<li>OpenPostcodes, <a href="https://openpostcodes.com/" class="uri">https://openpostcodes.com/</a> (no authentication, easy to understand)</li>
+</ul>
 
 </div>
             </section>
@@ -132,13 +142,14 @@
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -160,7 +171,8 @@ gitbook.start({
 },
 "download": null,
 "toc": {
-"collapse": "section"
+"collapse": "section",
+"scroll_highlight": true
 }
 });
 });
