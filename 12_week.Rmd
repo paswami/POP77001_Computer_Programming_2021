@@ -1,1 +1,6 @@
 # 12 Working with APIs
+
+Some ideas for example APIs:
+
+* Twitter API, https://developer.twitter.com/en/docs/twitter-api (Application + OAuth2, very complex)
+* OpenPostcodes, https://openpostcodes.com/ (no authentication, easy to understand)
