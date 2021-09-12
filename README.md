@@ -35,7 +35,7 @@ This module provides foundational knowledge of computer programming concepts and
 |     11 | Python, R  | Performance and Complexity       |
 |     12 | Python, R  | Web scraping                     |    
 
-## Prerequisites and Software
+## Prerequisites
 
 This is an introductory class and no prior experience with programming is required.
 
