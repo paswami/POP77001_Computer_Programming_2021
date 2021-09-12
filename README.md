@@ -2,14 +2,14 @@
 
 ## Michaelmas Term 2021
 
+## About This Module
+
+This module provides foundational knowledge of computer programming concepts and software engineering practices. It introduces students to major data science programming languages and workflows, with a focus on social science data and research questions. Students will be introduced to Python and R, two principal data science programming languages. This course covers basic and intermediate programming concepts, such as object types, functions, control flow, testing and debugging. Particular emphasis will be made on data handling and analytical tasks with a focus on problems in social sciences. Homeworks will include hands-on coding exercises. In addition, students will apply their programming knowledge on a research project at the end of the module.
+
 ## Instructors
 
 - [Tom Paskhalis](mailto:tom.paskhalis@tcd.ie), *Office Hours*: Thursday 11:00-13:00 on [Zoom](https://calendly.com/tom_paskhalis/pop77001_office_hours)
 - [Martyn Egan](mailto:eganm9@tcd.ie)
-
-## Module Description
-
-This module provides foundational knowledge of computer programming concepts and software engineering practices. It introduces students to major data science programming languages and workflows, with a focus on social science data and research questions. Students will be introduced to Python and R, two principal data science programming languages. This course covers basic and intermediate programming concepts, such as object types, functions, control flow, testing and debugging. Particular emphasis will be made on data handling and analytical tasks with a focus on problems in social sciences. Homeworks will include hands-on coding exercises. In addition, students will apply their programming knowledge on a research project at the end of the module.
 
 ## Module Meetings
 
