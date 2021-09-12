@@ -1,61 +1,112 @@
-# Computer Programming for Social Scientists (Fall 2021)
+# POP77001 Computer Programming for Social Scientists
 
-## Setting up virtual environment
+## Michaelmas Term 2021
 
-1. Install `venv` module: `sudo apt install python3-venv`
-2. Create virtual environment (names `venv` here) by running `python3 -m venv venv` in project root folder
-3. Activate virtual environment `source venv/bin/activate`
-4. Install Jupyter Notebook: `python -m pip install jupyter`
-5. Install [RISE](https://github.com/damianavila/RISE) (Reveal.js - Jupyter/IPython Slideshow Extension): `python -m pip install RISE`
+## Instructors
 
-For managing dependencies:
+- [Tom Paskhalis](mailto:tom.paskhalis@tcd.ie), *Office Hours*: Thursday 11:00-13:00 on [Zoom](https://calendly.com/tom_paskhalis/pop77001_office_hours)
+- [Martyn Egan](mailto:eganm9@tcd.ie)
 
-6. Install [pip-tools](https://github.com/jazzband/pip-tools): `python -m pip install pip-tools`
-7. Add main dependencies in `requirements.in`:
+## Module Description
 
-```
-jupyter
-RISE
-```
+This module provides foundational knowledge of computer programming concepts and software engineering practices. It introduces students to major data science programming languages and workflows, with a focus on social science data and research questions. Students will be introduced to Python and R, two principal data science programming languages. This course covers basic and intermediate programming concepts, such as object types, functions, control flow, testing and debugging. Particular emphasis will be made on data handling and analytical tasks with a focus on problems in social sciences. Homeworks will include hands-on coding exercises. In addition, students will apply their programming knowledge on a research project at the end of the module.
 
-8. Run `pip-compile requirements.in` to produce `requirements.txt`, which contains an exhaustive list of all dependencies.
+## Module Meetings
 
-## Lecture slides (HTML)
+- 11 two-hour lectures
+    - Monday at 11:00 in Lloyd Institute LB04
+- 11 one-hour tutorials
+    - Group 1: Wednesday 14:00 in Lloyd Institute LB04
+    - Group 2: Thursday 10:00 in Lloyd Institute LB04
+- No lecture/tutorial in Week 7
 
-All slides are written as Jupyter Notebooks are are available in `/lectures`. To convert slides to HTML: `jupyter nbconvert --to slides lectures/XX_week.ipynb`
+|   Week | Language   | Topic                            |
+|-------:|:-----------|:---------------------------------|
+|      1 | -          | What is computation?             |
+|      2 | Python     | Object Types in Python           |
+|      3 | Python     | Control Flow in Python           |
+|      4 | Python     | Function in Python               |
+|      5 | Python     | Testing and Debugging in Python  |
+|      6 | Python     | Data Wrangling in Python         |
+|      7 | -          | -                                |
+|      8 | R          | Fundamentals of R Programming I  |
+|      9 | R          | Fundamentals of R Programming II |
+|     10 | R          | Data Wrangling in R              |
+|     11 | Python, R  | Performance and Complexity       |
+|     12 | Python, R  | Web scraping                     |    
 
-## Lecture slides (PDF)
+## Prerequisites and Software
 
-To convert slides to PDF:
+This is an introductory class and no prior experience with programming is required.
 
-### Method 1 (URL links are unwrapped and printed in full)
+## Hardware and Software
 
-Conversion method adapted from [here](https://rise.readthedocs.io/en/stable/exportpdf.html#using-nbconvert):
+- Laptop with Windows/Mac/Linux OS (no Chrome books)
+- Software:
+    - [**Python**](https://www.python.org/) (version 3+) - versatile programming language
+    - [**R**](https://cran.r-project.org/) (version 4+) - statistical programming language
+    - [**Jupyter**](https://jupyter.org/) - web-based interactive computational environment
+    - [**RStudio**](https://www.rstudio.com/) - integrated development environment
+    - [**Git**](https://git-scm.com/) - version control system
+    - [**GitHub**](https://github.com/) - git-based online platform for code hosting
 
-1. Generate the slides and serve them using nbconvert:
+## Module Materials
 
-```
-jupyter nbconvert --to slides XX_week.ipynb --post serve
-```
+- Course website: [bit.ly/POP77001](https://bit.ly/POP77001)
+- GitHub repository: [github.com/ASDS-TCD/POP77001_Computer_Programming_2021](https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021)
 
-It opens up a webpage in the browser at http://127.0.0.1:8000/XX_week.slides.html#/
+## Additional Materials
 
-2. Add `?print-pdf` to the query string as http://127.0.0.1:8000/XX_week.slides.html?print-pdf
+Books:
 
-Note that you need to remove the `#` at the end. The page will render the slides vertically.
+- Guttag, John. 2021 *Introduction to Computation and Programming Using Python: With Application to Computational Modeling and Understanding Data*. 3rd ed. Cambridge, MA: The MIT Press
 
-3. Save to PDF in Chrome using the print option
+- Matloff, Norman. 2011. *The Art of R Programming: A Tour of Statistical Software Design*. San Francisco, CA: No Starch Press.
 
-### Method 2 (More engaged, requires installation of Node.js)
+- McKinney, Wes. 2017. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. 2nd ed. Sebastopol, CA: O'Reilly Media
 
-Conversion method adapted from [here](https://rise.readthedocs.io/en/stable/exportpdf.html#using-decktape):
+- Sweigart, Al. 2019. *Automate the Boring Stuff with Python*. 2nd ed. San Francisco, CA: No Starch Press
 
-1. Install Node.js: `sudo apt install nodejs npm`
-2. Set up `~/.npmrc` as described [here](https://medium.com/@ExplosionPills/dont-use-sudo-with-npm-5711d2726aa3) and add the directory to `$PATH`.
-3. Install [decktape](https://github.com/astefanutti/decktape): `npm install -g decktape`
-4. Start the Jupyter Notebook server: `jupyter notebook`
-5. Run decktape with:
+- Wickham, Hadley, and Garrett Grolemund. 2017. [*R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*](http://r4ds.had.co.nz/). Sebastopol, CA: O'Reilly Media.
 
-```
-decktape rise http://127.0.0.1:8888/notebooks/lectures/XX_week.ipynb?token=XXXXX lectures/XX_week.pdf
-```
+Online:
+
+- [Git Book](https://git-scm.com/book/en/v2)
+
+- [Python For You and Me](https://pymbook.readthedocs.io/en/latest/)
+
+- [Python Wikibook](https://en.wikibooks.org/wiki/Python_Programming)
+
+- [Python 3 Documentation](https://docs.python.org/3/) (intermediate and advanced)
+
+- [R Documentation](https://rdrr.io/)
+
+- [R Inferno](https://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
+
+## Assessment
+
+- 5 problem sets (50%)
+    - Bi-weekly programming assigments
+    - Due at 11:00 on Monday of weeks 3,5,7,10 and 12 on Blackboard
+
+- Research project (50%)
+    - Final Python/R project demonstrating familiarity with programming concepts and ability to communicate results
+    - Due at 11:00 on Monday, 20 December 2021
+    
+## Assessment criteria
+
+1. ✔️ Code exists
+2. ⌚ Code runs and does what it has to do
+3. 📜 Code is legible (meaningful naming, comments)
+4. ⚙️ Code is modular (no redundacies, use of abstractions)
+5. 🏎️ Code is optimized (no needless loops, runs fast)
+
+Marks at Trinity: [https://www.tcd.ie/academicregistry/exams/student-guide/](https://www.tcd.ie/academicregistry/exams/student-guide/)
+
+## Plagiarism
+
+- Plagiarising computer code is as serious as plagiarising text (see [Google LLC v. Oracle America, Inc.](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America%2C_Inc.))
+- All submitted programming assignments and final project should be done individually
+- You may discuss general approaches to solutions with your peers
+- But do not share or view each others code
+- You can use online resources but give credit in the comments 
