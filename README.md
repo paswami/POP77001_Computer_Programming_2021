@@ -23,7 +23,7 @@ This module provides foundational knowledge of computer programming concepts and
 |   Week | Language   | Topic                            |
 |-------:|:-----------|:---------------------------------|
 |      1 | -          | What is computation?             |
-|      2 | Python     | Object Types in Python           |
+|      2 | Python     | Python Basics                    |
 |      3 | Python     | Control Flow in Python           |
 |      4 | Python     | Function in Python               |
 |      5 | Python     | Testing and Debugging in Python  |
