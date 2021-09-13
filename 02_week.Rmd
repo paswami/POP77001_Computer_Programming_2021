@@ -1,1 +1,19 @@
-# 2 Object Types in Python
+# 2 Python Basics
+
+<div id="buttons">
+<a class="btn btn-primary btn-lg" role="button" href="lectures/02_week.html">Lecture Slides (html)</a>
+<a class="btn btn-info btn-lg" role="button" href="lectures/02_week.ipynb">Lecture Slides (ipynb)</a>
+<a class="btn btn-success btn-lg" role="button" href="labs/02_week.ipynb">Lab Exercise</a>
+</div>
+---
+
+In this week we will discuss the fundamental concepts of programming, such as variables, assignment and object types with application to Python. In addition, we will start using some in-built methods and functions.
+
+## Readings
+
+- Guttag. Chapters 2.2-2.5
+
+## Lab
+
+- Python object types and casting
+- Application of methods and functions
