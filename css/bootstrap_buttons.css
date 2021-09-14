@@ -57,6 +57,16 @@
   background-color: #157347;
   border-color: #146c43;
 }
+#buttons .btn-warning {
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+#buttons .btn-warning:hover {
+  color: #000;
+  background-color: #ffca2c;
+  border-color: #ffc720;
+}
 #buttons .btn-danger {
   color: #fff;
   background-color: #dc3545;
