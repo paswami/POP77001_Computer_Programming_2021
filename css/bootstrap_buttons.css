@@ -37,6 +37,16 @@
   background-color: #31d2f2;
   border-color: #25cff2;
 }
+#buttons .btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+#buttons .btn-secondary:hover {
+  color: #fff;
+  background-color: #5c636a;
+  border-color: #565e64;
+}
 #buttons .btn-success {
   color: #fff;
   background-color: #198754;
