@@ -1,6 +1,6 @@
 ---
 title: "POP77001 Computer Programming for Social Scientists"
-author: "Tom Paskhalis, Department of Politican Science, Trinity College Dublin"
+author: "Tom Paskhalis, Department of Political Science, Trinity College Dublin"
 date: "2021"
 site: bookdown::bookdown_site
 documentclass: book
