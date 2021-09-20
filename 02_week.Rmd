@@ -5,6 +5,7 @@
 <a class="btn btn-secondary btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/lectures/02_week.ipynb">Lecture Slides (ipynb)</a>
 <a class="btn btn-success btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/labs/02_week.ipynb">Lab Exercise (ipynb)</a>
 <a class="btn btn-secondary btn-lg" role="button" href="labs/02_week.html">Lab Exercise (html)</a>
+<a class="btn btn-danger btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/assignments/01_assignment.ipynb">Assignment</a>
 </div>
 ---
 
@@ -18,3 +19,9 @@ In this week we will discuss the fundamental concepts of programming, such as va
 
 - Python object types and casting
 - Application of methods and functions
+
+## Assignment
+
+- Python built-in objects and methods
+- Due at 11:00 on Monday, 27th September (submission on Blackboard)
+- Rename the file from `01_assignment.ipynb` to `01_assignment_studentnumber_firstname_lastname.ipynb` before submission
