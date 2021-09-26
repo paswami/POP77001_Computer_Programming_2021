@@ -14,6 +14,7 @@ In the first week we will cover the core software development concepts such as c
 ## Readings
 
 - Guttag. Chapters 1-2.1
+- McKinney. Chapters 1-2
 - Wing, Jeannette M. 2006. "Computational Thinking." Communications of the ACM, 49 (3): 33–35. doi: [10.1145/1118178.1118215](https://doi.org/10.1145/1118178.1118215)
 
 ## Lab
