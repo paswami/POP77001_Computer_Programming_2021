@@ -1,1 +1,12 @@
 # 5 Testing and Debugging in Python
+
+In this week we will focus on how to test and debug a Python program. We will start with the usage of print() statement to analyse the state of function calls and loops. Afterwards, we will talk about more structured ways of error-catching and debugging using exceptions and built-in Python debugger.
+
+## Readings
+
+- Guttag. Chapters 8-9
+
+## Lab
+
+- Ways of debugging a program
+- Exceptions and assertions in Python

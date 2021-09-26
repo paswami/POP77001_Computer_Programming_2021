@@ -1,1 +1,11 @@
 # 4 Functions in Python
+
+This week we will discuss functions, one of main building blocks of a program implemented in any language. We will start by looking at unnamed (lambda) functions and proceed to defining functions in Python. Special attention will be given to argument specification and unpacking.
+
+## Readings
+
+- Guttag. Chapter 4
+
+## Lab
+
+- Working with functions in Python
