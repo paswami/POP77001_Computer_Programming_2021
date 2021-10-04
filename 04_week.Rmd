@@ -18,3 +18,9 @@ This week we will discuss functions, one of main building blocks of a program im
 ## Lab
 
 - Working with functions in Python
+
+## Assignment
+
+- Control flow and functions in Python
+- Due at 11:00 on Monday, 11th October (submission on Blackboard)
+- Rename the file from `02_assignment.ipynb` to `02_assignment_studentnumber_firstname_lastname.ipynb` before submission
