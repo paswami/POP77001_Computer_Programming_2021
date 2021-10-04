@@ -14110,6 +14110,7 @@ div.jp-OutputPrompt {
 <li>Function definition and function call</li>
 <li>Scoping in Python</li>
 <li>Recursion</li>
+<li>Modules</li>
 </ul>
 
 </div>
@@ -14286,7 +14287,7 @@ div.jp-OutputPrompt {
 <h2 id="Function-call">Function call<a class="anchor-link" href="#Function-call">&#182;</a></h2><ul>
 <li>Function is executed until:<ul>
 <li>Either <code>return</code> statement is encountered</li>
-<li>There are no more expressions to evaluate</li>
+<li>Or there are no more expressions to evaluate</li>
 </ul>
 </li>
 <li>Function call always returns a value:<ul>
@@ -14837,8 +14838,8 @@ None
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Python-scope-basics">Python scope basics<a class="anchor-link" href="#Python-scope-basics">&#182;</a></h2><ul>
 <li>Variables (aka names) exist in a <em>namespace</em></li>
-<li>This is where Python looks it up, when you refer to an object by its variable name</li>
-<li>Location of first variable assignment determines its namespace (scope of visibility)</li>
+<li>This is where Python looks it up when you refer to an object by its variable name</li>
+<li>Location of the first variable assignment determines its namespace (scope of visibility)</li>
 </ul>
 
 </div>
@@ -15265,7 +15266,7 @@ None
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Function-design-principles">Function design principles<a class="anchor-link" href="#Function-design-principles">&#182;</a></h2><ul>
 <li>Function should have a single, cohesive purpose<ul>
-<li>Check if you could give it a short desciptive name</li>
+<li>Check if you could give it a short descriptive name</li>
 </ul>
 </li>
 <li>Function should be relatively small</li>
@@ -15284,7 +15285,7 @@ None
 <li>Module is .py file with Python defitions and statements</li>
 <li>Program can access functionality of a module using <code>import</code> statement</li>
 <li>Module is imported only once per interpreter session</li>
-<li>Every module has its own namesspace</li>
+<li>Every module has its own namespace</li>
 </ul>
 
 <pre><code>import &lt;module_name&gt;
