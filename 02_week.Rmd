@@ -14,7 +14,7 @@ In this week we will discuss the fundamental concepts of programming, such as va
 
 ## Readings
 
-- Guttag. 2.2, 2.4, 4.5, 5.1, 5.3, 5.5-5.7
+- Guttag. Chapters 2.2, 2.4, 4.5, 5.1, 5.3, 5.5-5.7
 
 ## Lab
 
