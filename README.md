@@ -8,7 +8,7 @@ This module provides foundational knowledge of computer programming concepts and
 
 ## Instructors
 
-- [Tom Paskhalis](mailto:tom.paskhalis@tcd.ie), *Office Hours*: Thursday 11:00-13:00 on [Zoom](https://calendly.com/tom_paskhalis/pop77001_office_hours)
+- [Tom Paskhalis](mailto:tom.paskhalis@tcd.ie), *Office Hours*: Thursday 11:00-13:00  [online](https://outlook.office365.com/owa/calendar/TomPaskhalis@TCDUD.onmicrosoft.com/bookings/)
 - [Martyn Egan](mailto:eganm9@tcd.ie)
 
 ## Module Meetings
@@ -25,15 +25,15 @@ This module provides foundational knowledge of computer programming concepts and
 |      1 | -          | What is computation?             |
 |      2 | Python     | Python Basics                    |
 |      3 | Python     | Control Flow in Python           |
-|      4 | Python     | Function in Python               |
-|      5 | Python     | Testing and Debugging in Python  |
+|      4 | Python     | Functions in Python              |
+|      5 | Python     | Debugging and Testing in Python  |
 |      6 | Python     | Data Wrangling in Python         |
 |      7 | -          | -                                |
 |      8 | R          | Fundamentals of R Programming I  |
 |      9 | R          | Fundamentals of R Programming II |
 |     10 | R          | Data Wrangling in R              |
 |     11 | Python, R  | Performance and Complexity       |
-|     12 | Python, R  | Web scraping                     |    
+|     12 | Python, R  | Web scraping                     |   
 
 ## Prerequisites
 
