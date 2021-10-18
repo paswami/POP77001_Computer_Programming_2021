@@ -21,7 +21,7 @@ In this week we will discuss the fundamental concepts of programming, such as va
 - Python object types and casting
 - Application of methods and functions
 
-## Assignment
+## Assignment 1
 
 - Python built-in objects and methods
 - Due at 11:00 on Monday, 27th September (submission on Blackboard)

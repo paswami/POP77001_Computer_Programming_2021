@@ -21,8 +21,8 @@ This week we will turn from broader programming and software engineering concept
 - Data input and output
 - Working with pandas library
 
-## Assignment
+## Assignment 3
 
 - Testing and data wrangling in Python
-- Due at 11:00 on Monday, 25th October (submission on Blackboard)
+- Due at 11:00 on Wednesday, 27th October (submission on Blackboard)
 - Rename the file from `03_assignment.ipynb` to `03_assignment_studentnumber_firstname_lastname.ipynb` before submission
