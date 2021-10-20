@@ -19,7 +19,7 @@ This week we will discuss functions, one of main building blocks of a program im
 
 - Working with functions in Python
 
-## Assignment
+## Assignment 2
 
 - Control flow and functions in Python
 - Due at 11:00 on Monday, 11th October (submission on Blackboard)
