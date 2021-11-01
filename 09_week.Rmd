@@ -1,1 +1,13 @@
 # 9 Fundamentals of R Programming II
+
+In this week we focus on functional side of programming in R. We look at control flow mechanisms and functions.
+
+## Readings
+
+- Matloff. Chapters 7
+- Wickham. Chapters 6, 10-12
+
+## Lab
+
+- Conditional statements and iterations
+- Working with functions in R
