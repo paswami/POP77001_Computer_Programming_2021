@@ -14,10 +14,10 @@ This module provides foundational knowledge of computer programming concepts and
 ## Module Meetings
 
 - 11 two-hour lectures
-    - Monday at 11:00 in Lloyd Institute LB04
+    - Monday 11:00 in [East End Development 4/5](https://www.tcd.ie/Maps/map.php?b=233) LTEE2
 - 11 one-hour tutorials
-    - Group 1: Wednesday 14:00 in Lloyd Institute LB04
-    - Group 2: Thursday 10:00 in Lloyd Institute LB04
+    - Group 1: Wednesday 14:00 in [1 College Green](https://www.tcd.ie/Maps/map.php?b=234) 2.04
+    - Group 2: Thursday 10:00 in [East End Development 4/5](https://www.tcd.ie/Maps/map.php?b=233) LTEE2
 - No lecture/tutorial in Week 7
 
 |   Week | Language   | Topic                            |
@@ -65,7 +65,7 @@ Books:
 
 - McKinney, Wes. 2017. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. 2nd ed. Sebastopol, CA: O'Reilly Media
 
-- Sweigart, Al. 2019. *Automate the Boring Stuff with Python*. 2nd ed. San Francisco, CA: No Starch Press
+- Wickham, Hadley. 2019. [*Advanced R*](http://adv-r.had.co.nz/). 2nd ed. Boca Raton, FL: Chapman and Hall/CRC.
 
 - Wickham, Hadley, and Garrett Grolemund. 2017. [*R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*](http://r4ds.had.co.nz/). Sebastopol, CA: O'Reilly Media.
 
