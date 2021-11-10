@@ -15597,7 +15597,7 @@ seq_along(&lt;object&gt;)</code></pre>
 <h2 id="Function-components">Function components<a class="anchor-link" href="#Function-components">&#182;</a></h2><ul>
 <li>Body (<code>body()</code>) - code inside the function</li>
 <li>List of arguments (<code>formals()</code>) - controls how function is called</li>
-<li>Environment/scope/namespace (<code>environment()</code>) - list of function's variables</li>
+<li>Environment/scope/namespace (<code>environment()</code>) - location of function's defintion and variables</li>
 </ul>
 
 </div>
@@ -16432,7 +16432,7 @@ Traceback:
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="nf">`+`</span><span class="p">(</span><span class="m">3</span><span class="p">,</span> <span class="m">2</span><span class="p">)</span>
+<div class=" highlight hl-r"><pre><span></span><span class="nf">`+`</span><span class="p">(</span><span class="m">3</span><span class="p">,</span> <span class="m">2</span><span class="p">)</span> <span class="c1"># Equivalent to: 3 + 2</span>
 </pre></div>
 
      </div>
@@ -16469,7 +16469,7 @@ Traceback:
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="nf">`&lt;-`</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="nf">c</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">12</span><span class="p">,</span> <span class="m">14</span><span class="p">))</span>
+<div class=" highlight hl-r"><pre><span></span><span class="nf">`&lt;-`</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="nf">c</span><span class="p">(</span><span class="m">10</span><span class="p">,</span> <span class="m">12</span><span class="p">,</span> <span class="m">14</span><span class="p">))</span> <span class="c1"># x &lt;- c(10, 12, 14)</span>
 <span class="n">x</span>
 </pre></div>
 
@@ -16507,7 +16507,7 @@ Traceback:
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="nf">`[`</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="m">3</span><span class="p">)</span>
+<div class=" highlight hl-r"><pre><span></span><span class="nf">`[`</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="m">3</span><span class="p">)</span> <span class="c1"># x[3]</span>
 </pre></div>
 
      </div>
@@ -16544,7 +16544,7 @@ Traceback:
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span><span class="nf">`&gt;`</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="m">10</span><span class="p">)</span>
+<div class=" highlight hl-r"><pre><span></span><span class="nf">`&gt;`</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="m">10</span><span class="p">)</span> <span class="c1"># x &gt; 10</span>
 </pre></div>
 
      </div>
