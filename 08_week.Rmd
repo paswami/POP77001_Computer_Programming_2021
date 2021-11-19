@@ -5,6 +5,7 @@
 <a class="btn btn-secondary btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/lectures/08_week.ipynb">Lecture Slides (ipynb)</a>
 <a class="btn btn-success btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/labs/08_week.ipynb">Lab Exercise (ipynb)</a>
 <a class="btn btn-secondary btn-lg" role="button" href="labs/08_week.html">Lab Exercise (html)</a>
+<a class="btn btn-warning btn-lg" role="button" href="recordings/08_week_lecture.mp3">Recording</a>
 </div>
 ---
 
@@ -12,8 +13,8 @@ This week we start learning about R, another major language for data analysis. I
 
 ## Readings
 
-- Matloff. Chapters 2-6
-- Wickham. Chapters 2-5
+- Matloff. Chapters 2: Vectors, 3: Matrices & Arrays, 4: Lists, 5: Data Frames, 6: Factors & Tables;
+- Wickham. Chapters [2: Data Structures](http://adv-r.had.co.nz/Data-structures.html), [3: Subsetting](http://adv-r.had.co.nz/Subsetting.html), [4: Vocabulary](http://adv-r.had.co.nz/Vocabulary.html)
 
 ## Lab
 

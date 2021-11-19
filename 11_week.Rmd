@@ -1,1 +1,13 @@
-# 11 Performance and Complexity
+# 11 Complexity and Performance
+
+Getting the correct result and having well-structured and documented code are only two aspects of a good program. We also want our code to execute fast and, in some cases, for it to finish running in a moment, hour, day, year, lifetime... This week we more formally discuss algorithmic complexity and performance. In addition to theoretical considerations we look into measuring execution time and benchmarking specific operations. 
+
+## Readings
+
+- Guttag. Chapters 11, 12;
+- Wickham. Chapters [16: Performance](http://adv-r.had.co.nz/Performance.html), [17: Optimising Code](http://adv-r.had.co.nz/Profiling.html)
+
+## Lab
+
+- Analysis of function complexity and performance
+- Timing and benchmarking

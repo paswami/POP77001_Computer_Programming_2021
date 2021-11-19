@@ -5,6 +5,7 @@
 <a class="btn btn-secondary btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/lectures/10_week.ipynb">Lecture Slides (ipynb)</a>
 <a class="btn btn-success btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/labs/10_week.ipynb">Lab Exercise (ipynb)</a>
 <a class="btn btn-secondary btn-lg" role="button" href="labs/10_week.html">Lab Exercise (html)</a>
+<a class="btn btn-warning btn-lg" role="button" href="recordings/10_week_lecture.mp3">Recording</a>
 </div>
 ---
 
@@ -12,7 +13,7 @@ Working with data is at the centre of programming in R. In addition to core func
 
 ## Readings
 
-- Wickham & Grolemund Ch. [7: Tibbles](https://r4ds.had.co.nz/tibbles.html), [8: Data Import](https://r4ds.had.co.nz/data-import.html), [9: Tidy Data](https://r4ds.had.co.nz/tidy-data.html)
+- Wickham & Grolemund. Chapters [7: Tibbles](https://r4ds.had.co.nz/tibbles.html), [8: Data Import](https://r4ds.had.co.nz/data-import.html), [9: Tidy Data](https://r4ds.had.co.nz/tidy-data.html)
 
 ## Lab
 
