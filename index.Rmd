@@ -37,8 +37,8 @@ This module provides foundational knowledge of computer programming concepts and
 |      8 | R          | Fundamentals of R Programming I  |
 |      9 | R          | Fundamentals of R Programming II |
 |     10 | R          | Data Wrangling in R              |
-|     11 | Python, R  | Complexity and Performance       |
-|     12 | Python, R  | Web scraping                     |
+|     11 | R, Python  | Complexity and Performance       |
+|     12 | R, Python  | Web scraping                     |
 
 ## Prerequisites {-}
 
