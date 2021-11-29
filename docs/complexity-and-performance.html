@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>11 Complexity and Performance | POP77001 Computer Programming for Social Scientists</title>
+  <meta name="description" content="11 Complexity and Performance | POP77001 Computer Programming for Social Scientists" />
+  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="11 Complexity and Performance | POP77001 Computer Programming for Social Scientists" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="11 Complexity and Performance | POP77001 Computer Programming for Social Scientists" />
+  
+  
+  
+
+<meta name="author" content="Tom Paskhalis, Department of Political Science, Trinity College Dublin" />
+
+
+<meta name="date" content="2021-01-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data-wrangling-in-r.html"/>
+<link rel="next" href="web-scraping.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="css/bootstrap_buttons.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Computer Programming for Social Scientists</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About This Module</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#instructors"><i class="fa fa-check"></i>Instructors</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#module-meetings"><i class="fa fa-check"></i>Module Meetings</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i>Prerequisites</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#hardware-and-software"><i class="fa fa-check"></i>Hardware and Software</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#materials"><i class="fa fa-check"></i>Materials</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#assessment"><i class="fa fa-check"></i>Assessment</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#assessment-criteria"><i class="fa fa-check"></i>Assessment criteria</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#plagiarism"><i class="fa fa-check"></i>Plagiarism</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="what-is-computation.html"><a href="what-is-computation.html"><i class="fa fa-check"></i>1 What is Computation?</a>
+<ul>
+<li class="chapter" data-level="" data-path="what-is-computation.html"><a href="what-is-computation.html#readings"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="what-is-computation.html"><a href="what-is-computation.html#lab"><i class="fa fa-check"></i>Lab</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="python-basics.html"><a href="python-basics.html"><i class="fa fa-check"></i>2 Python Basics</a>
+<ul>
+<li class="chapter" data-level="" data-path="python-basics.html"><a href="python-basics.html#readings-1"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="python-basics.html"><a href="python-basics.html#lab-1"><i class="fa fa-check"></i>Lab</a></li>
+<li class="chapter" data-level="" data-path="python-basics.html"><a href="python-basics.html#assignment-1"><i class="fa fa-check"></i>Assignment 1</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="control-flow-in-python.html"><a href="control-flow-in-python.html"><i class="fa fa-check"></i>3 Control Flow in Python</a>
+<ul>
+<li class="chapter" data-level="" data-path="control-flow-in-python.html"><a href="control-flow-in-python.html#readings-2"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="control-flow-in-python.html"><a href="control-flow-in-python.html#lab-2"><i class="fa fa-check"></i>Lab</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="functions-in-python.html"><a href="functions-in-python.html"><i class="fa fa-check"></i>4 Functions in Python</a>
+<ul>
+<li class="chapter" data-level="" data-path="functions-in-python.html"><a href="functions-in-python.html#readings-3"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="functions-in-python.html"><a href="functions-in-python.html#lab-3"><i class="fa fa-check"></i>Lab</a></li>
+<li class="chapter" data-level="" data-path="functions-in-python.html"><a href="functions-in-python.html#assignment-2"><i class="fa fa-check"></i>Assignment 2</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="debugging-and-testing-in-python.html"><a href="debugging-and-testing-in-python.html"><i class="fa fa-check"></i>5 Debugging and Testing in Python</a>
+<ul>
+<li class="chapter" data-level="" data-path="debugging-and-testing-in-python.html"><a href="debugging-and-testing-in-python.html#readings-4"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="debugging-and-testing-in-python.html"><a href="debugging-and-testing-in-python.html#lab-4"><i class="fa fa-check"></i>Lab</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="data-wrangling-in-python.html"><a href="data-wrangling-in-python.html"><i class="fa fa-check"></i>6 Data Wrangling in Python</a>
+<ul>
+<li class="chapter" data-level="" data-path="data-wrangling-in-python.html"><a href="data-wrangling-in-python.html#readings-5"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="data-wrangling-in-python.html"><a href="data-wrangling-in-python.html#lab-5"><i class="fa fa-check"></i>Lab</a></li>
+<li class="chapter" data-level="" data-path="data-wrangling-in-python.html"><a href="data-wrangling-in-python.html#assignment-3"><i class="fa fa-check"></i>Assignment 3</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-i.html"><a href="fundamentals-of-r-programming-i.html"><i class="fa fa-check"></i>8 Fundamentals of R Programming I</a>
+<ul>
+<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-i.html"><a href="fundamentals-of-r-programming-i.html#readings-6"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-i.html"><a href="fundamentals-of-r-programming-i.html#lab-6"><i class="fa fa-check"></i>Lab</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-ii.html"><a href="fundamentals-of-r-programming-ii.html"><i class="fa fa-check"></i>9 Fundamentals of R Programming II</a>
+<ul>
+<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-ii.html"><a href="fundamentals-of-r-programming-ii.html#readings-7"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-ii.html"><a href="fundamentals-of-r-programming-ii.html#lab-7"><i class="fa fa-check"></i>Lab</a></li>
+<li class="chapter" data-level="" data-path="fundamentals-of-r-programming-ii.html"><a href="fundamentals-of-r-programming-ii.html#assignment-4"><i class="fa fa-check"></i>Assignment 4</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="data-wrangling-in-r.html"><a href="data-wrangling-in-r.html"><i class="fa fa-check"></i>10 Data Wrangling in R</a>
+<ul>
+<li class="chapter" data-level="" data-path="data-wrangling-in-r.html"><a href="data-wrangling-in-r.html#readings-8"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="data-wrangling-in-r.html"><a href="data-wrangling-in-r.html#lab-8"><i class="fa fa-check"></i>Lab</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="complexity-and-performance.html"><a href="complexity-and-performance.html"><i class="fa fa-check"></i>11 Complexity and Performance</a>
+<ul>
+<li class="chapter" data-level="" data-path="complexity-and-performance.html"><a href="complexity-and-performance.html#readings-9"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="complexity-and-performance.html"><a href="complexity-and-performance.html#lab-9"><i class="fa fa-check"></i>Lab</a></li>
+<li class="chapter" data-level="" data-path="complexity-and-performance.html"><a href="complexity-and-performance.html#assignment-5"><i class="fa fa-check"></i>Assignment 5</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="web-scraping.html"><a href="web-scraping.html"><i class="fa fa-check"></i>12 Web scraping</a>
+<ul>
+<li class="chapter" data-level="" data-path="web-scraping.html"><a href="web-scraping.html#readings-10"><i class="fa fa-check"></i>Readings</a></li>
+<li class="chapter" data-level="" data-path="web-scraping.html"><a href="web-scraping.html#lab-10"><i class="fa fa-check"></i>Lab</a></li>
+<li class="chapter" data-level="" data-path="web-scraping.html"><a href="web-scraping.html#final-project"><i class="fa fa-check"></i>Final project</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">POP77001 Computer Programming for Social Scientists</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="complexity-and-performance" class="section level1">
+<h1>11 Complexity and Performance</h1>
+<div id="buttons">
+<p><a class="btn btn-primary btn-lg" role="button" href="lectures/11_week.html">Lecture Slides (html)</a>
+<a class="btn btn-secondary btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/lectures/11_week.ipynb">Lecture Slides (ipynb)</a>
+<a class="btn btn-success btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/labs/11_week.ipynb">Lab Exercise (ipynb)</a>
+<a class="btn btn-secondary btn-lg" role="button" href="labs/11_week.html">Lab Exercise (html)</a>
+<a class="btn btn-warning btn-lg" role="button" href="recordings/11_week_lecture.mp3">Recording</a>
+<a class="btn btn-danger btn-lg" role="button" href="https://github.com/ASDS-TCD/POP77001_Computer_Programming_2021/blob/main/assignments/05_assignment.ipynb">Assignment</a></p>
+</div>
+<hr />
+<p>Getting the correct result and having well-structured and documented code are only two aspects of a good program. We also want our code to execute fast and, in some cases, for it to finish running in a moment, hour, day, year, lifetime… This week we more formally discuss algorithmic complexity and performance. In addition to theoretical considerations we look into measuring execution time and benchmarking specific operations.</p>
+<div id="readings-9" class="section level2">
+<h2>Readings</h2>
+<ul>
+<li>Guttag. Chapters 11, 12;</li>
+<li>Wickham. Chapters <a href="http://adv-r.had.co.nz/Performance.html">16: Performance</a>, <a href="http://adv-r.had.co.nz/Profiling.html">17: Optimising Code</a></li>
+</ul>
+</div>
+<div id="lab-9" class="section level2">
+<h2>Lab</h2>
+<ul>
+<li>Analysis of function complexity and performance</li>
+<li>Timing and benchmarking</li>
+</ul>
+</div>
+<div id="assignment-5" class="section level2">
+<h2>Assignment 5</h2>
+<ul>
+<li>Data wrangling and computational complexity</li>
+<li>Due at 11:00 on Monday, 29th November (submission on Blackboard)</li>
+<li>Rename the file from <code>05_assignment.ipynb</code> to <code>05_assignment_studentnumber_firstname_lastname.ipynb</code> before submission</li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-wrangling-in-r.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="web-scraping.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "lunr",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -37,8 +37,8 @@ This module provides foundational knowledge of computer programming concepts and
 |      8 | R          | Fundamentals of R Programming I  |
 |      9 | R          | Fundamentals of R Programming II |
 |     10 | R          | Data Wrangling in R              |
-|     11 | Python, R  | Performance and Complexity       |
-|     12 | Python, R  | Web scraping                     |  
+|     11 | R, Python  | Complexity and Performance       |
+|     12 | R, Python  | Web scraping                     |
 
 ## Prerequisites {-}
 
@@ -101,8 +101,6 @@ Additional online resources:
 4. ⚙️ Code is modular (no redundacies, use of abstractions)
 5. 🏎️ Code is optimized (no needless loops, runs fast)
 
-Marks at Trinity: [https://www.tcd.ie/academicregistry/exams/student-guide/](https://www.tcd.ie/academicregistry/exams/student-guide/)
-
 ## Plagiarism {-}
 
 - Plagiarising computer code is as serious as plagiarising text (see [Google LLC v. Oracle America, Inc.](https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America%2C_Inc.))
@@ -110,3 +108,5 @@ Marks at Trinity: [https://www.tcd.ie/academicregistry/exams/student-guide/](htt
 - You may discuss general approaches to solutions with your peers
 - But do not share or view each others code
 - You can use online resources but give credit in the comments
+
+Check the Trinity's [guide on the levels and consequences of plagiarism](https://libguides.tcd.ie/plagiarism/levels-and-consequences)
